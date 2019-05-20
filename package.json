@@ -1,0 +1,25 @@
+{
+  "name": "ape",
+  "version": "1.0.0",
+  "description": "A Bathing Ape",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinimalistYing/Ape.git"
+  },
+  "keywords": [
+    "util",
+    "make",
+    "life",
+    "easier"
+  ],
+  "author": "MinimalistYing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MinimalistYing/Ape/issues"
+  },
+  "homepage": "https://github.com/MinimalistYing/Ape#readme"
+}
