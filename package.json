@@ -1,5 +1,5 @@
 {
-  "name": "ape",
+  "name": "bape",
   "version": "1.0.0",
   "description": "A Bathing Ape",
   "main": "index.js",
@@ -19,7 +19,7 @@
   "author": "minimalistying",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MinimalistYing/Ape/issues"
+    "url": "https://github.com/MinimalistYing/Bape/issues"
   },
-  "homepage": "https://github.com/MinimalistYing/Ape#readme"
+  "homepage": "https://github.com/MinimalistYing/Bape#readme"
 }
