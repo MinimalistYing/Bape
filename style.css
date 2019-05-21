@@ -1,0 +1,19 @@
+/* show ... when text is too long */
+.text-ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* use flex layout to align child element center */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* generate a square that width is half of parent content width */
+.half-parent-width-square {
+  width: 50%;
+  padding-top: 50%;
+}
