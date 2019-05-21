@@ -1,6 +1,6 @@
 {
   "name": "bape",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Bathing Ape",
   "main": "index.js",
   "scripts": {
