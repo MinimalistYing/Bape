@@ -7,7 +7,7 @@
  */
 export default function formatJSON (value, replacer = null, space = 2) {
   let str = ''
-  // 如果传入的是对象直接返回格式化后的字符串
+  // If input is string, there is no need to parse
   if (typeof value !== 'string') return JSON.stringify(value, replacer, space)
   try {
     str = JSON.stringify(JSON.parse(value), replacer, space)

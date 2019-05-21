@@ -1,6 +1,6 @@
 {
   "name": "bape",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Bathing Ape",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/MinimalistYing/Bape/issues"
   },
-  "homepage": "https://github.com/MinimalistYing/Bape#readme"
+  "homepage": "https://github.com/MinimalistYing/Bape#readme",
+  "dependencies": {
+    "js-cookie": "^2.2.0"
+  }
 }
