@@ -3,7 +3,7 @@
  * 
  * @param {*} value 
  */
-export default function(input) {
+export default function isJSON (input) {
   if (typeof input === 'object') return false
   try {
     JSON.parse(input)
