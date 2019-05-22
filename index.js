@@ -5,6 +5,7 @@ import isJSON from './isJSON'
 import isObject from './isObject'
 import isPlainObject from './isPlainObject'
 import isEmptyObject from './isEmptyObject'
+import isNumber from './isNumber'
 
 export default {
   isURL,
@@ -13,5 +14,6 @@ export default {
   isJSON,
   isObject,
   isPlainObject,
-  isEmptyObject
+  isEmptyObject,
+  isNumber
 }

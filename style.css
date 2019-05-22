@@ -17,3 +17,9 @@
   width: 50%;
   padding-top: 50%;
 }
+
+/* blur text */
+.blur-text {
+  color: transparent;
+  text-shadow: #333 0 0 6px;
+}
