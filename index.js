@@ -6,6 +6,9 @@ import isObject from './isObject'
 import isPlainObject from './isPlainObject'
 import isEmptyObject from './isEmptyObject'
 import isNumber from './isNumber'
+import random from './random'
+import randomString from './randomString'
+import randomCnString from './randomCnString'
 
 export default {
   isURL,
@@ -15,5 +18,8 @@ export default {
   isObject,
   isPlainObject,
   isEmptyObject,
-  isNumber
+  isNumber,
+  random,
+  randomString,
+  randomCnString
 }
