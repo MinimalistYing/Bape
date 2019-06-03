@@ -9,6 +9,7 @@ import isNumber from './isNumber'
 import random from './random'
 import randomString from './randomString'
 import randomCnString from './randomCnString'
+import once from './once'
 
 export default {
   isURL,
@@ -21,5 +22,6 @@ export default {
   isNumber,
   random,
   randomString,
-  randomCnString
+  randomCnString,
+  once
 }

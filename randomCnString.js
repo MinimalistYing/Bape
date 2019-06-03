@@ -5,7 +5,7 @@ import random from './random'
  * 
  * @param {integer} length 
  */
-export default function randomString (length = 8) {
+export default function randomCnString (length = 8) {
   if (!Number.isInteger(length) || length <= 0) throw new Error('length must be an integer large than 0')
 
   let str = ''
