@@ -19,6 +19,9 @@ import noop from './noop'
 import isEnter from './isEnter'
 import formatJSON from './formatJSON'
 
+// array
+import remove from './remove'
+
 export default {
   isURL,
   isEnter,
@@ -32,5 +35,6 @@ export default {
   randomString,
   randomCnString,
   once,
-  noop
+  noop,
+  remove
 }
