@@ -1,6 +1,6 @@
 {
   "name": "bape",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "A Bathing Ape",
   "main": "index.js",
   "scripts": {
@@ -23,5 +23,12 @@
   "homepage": "https://github.com/MinimalistYing/Bape#readme",
   "dependencies": {
     "js-cookie": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-transform-modules-umd": "^7.2.0",
+    "@babel/preset-env": "^7.4.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0"
   }
 }
