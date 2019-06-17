@@ -42,4 +42,6 @@
       return Math.floor(min + rand);
     }
   }
+
+  module.exports = exports.default;
 });

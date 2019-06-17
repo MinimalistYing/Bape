@@ -56,4 +56,5 @@
     remove: _remove["default"]
   };
   _exports["default"] = _default;
+  module.exports = exports.default;
 });

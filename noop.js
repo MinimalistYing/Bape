@@ -22,4 +22,6 @@
    * a function that do nothing, usually passed in other function as params which required function  
    */
   function noop() {}
+
+  module.exports = exports.default;
 });

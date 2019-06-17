@@ -47,4 +47,6 @@
 
     return _toConsumableArray(arr);
   }
+
+  module.exports = exports.default;
 });

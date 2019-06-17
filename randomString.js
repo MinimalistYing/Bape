@@ -38,4 +38,6 @@
 
     return str;
   }
+
+  module.exports = exports.default;
 });

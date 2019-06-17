@@ -23,4 +23,5 @@
 
   var _default = _jsCookie["default"];
   _exports["default"] = _default;
+  module.exports = exports.default;
 });

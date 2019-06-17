@@ -29,4 +29,6 @@
     if (_typeof(e) !== 'object') return false;
     return e.key === 'Enter' || e.which === 13 || e.keyCode === 13;
   }
+
+  module.exports = exports.default;
 });

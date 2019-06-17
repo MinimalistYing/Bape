@@ -26,4 +26,6 @@
   function isNumber(input) {
     return typeof input === 'number' && Number.isFinite(input);
   }
+
+  module.exports = exports.default;
 });

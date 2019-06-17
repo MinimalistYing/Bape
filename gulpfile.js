@@ -5,7 +5,7 @@ gulp.task('default', function() {
   return gulp.src('src/*.js')
     .pipe(babel({
       presets: ['@babel/env'],
-      plugins: ['@babel/plugin-transform-modules-umd']
+      plugins: ['@babel/plugin-transform-modules-umd', 'add-module-exports']
     }))
     .pipe(gulp.dest('./'))
 })

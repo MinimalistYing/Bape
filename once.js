@@ -40,4 +40,6 @@
       }
     };
   }
+
+  module.exports = exports.default;
 });

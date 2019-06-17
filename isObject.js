@@ -28,4 +28,6 @@
   function isObject(input) {
     return _typeof(input) === 'object' && input !== null || typeof input === 'function';
   }
+
+  module.exports = exports.default;
 });

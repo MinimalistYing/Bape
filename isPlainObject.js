@@ -38,4 +38,6 @@
 
     return proto === Object.getPrototypeOf(input);
   }
+
+  module.exports = exports.default;
 });

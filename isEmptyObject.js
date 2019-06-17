@@ -30,4 +30,6 @@
     if (!(0, _isObject["default"])(input)) return false;
     return Object.keys(input).length === 0;
   }
+
+  module.exports = exports.default;
 });

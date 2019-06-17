@@ -36,4 +36,6 @@
 
     return true;
   }
+
+  module.exports = exports.default;
 });
