@@ -3,7 +3,7 @@
  * 
  * @param {function} fn 
  */
-export default function once (fn) {
+export default function once(fn) {
   if (typeof fn !== 'function') return () => {}
   const excuted = false
 
