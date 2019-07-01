@@ -23,3 +23,8 @@
   color: transparent;
   text-shadow: #333 0 0 6px;
 }
+
+/* hide */
+.display-none {
+  display: none;
+}
