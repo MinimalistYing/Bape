@@ -1,7 +1,6 @@
 # Bape - A Bathing Ape
-Some useful javascript functions and css style  
-To reduce some dumb work  
-Inspired by Lodash
+Some useful Javascript functions and CSS style to reduce  dumb work.  
+Inspired by Lodash.
 
 # Browser Support
 Modern browsers and IE 11+
