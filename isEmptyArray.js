@@ -25,7 +25,7 @@
    */
   function isEmptyArray(input) {
     if (!Array.isArray(input)) return false;
-    return input.length > 0;
+    return input.length === 0;
   }
 
   module.exports = exports.default;
