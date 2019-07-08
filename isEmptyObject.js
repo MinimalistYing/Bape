@@ -22,7 +22,7 @@
   function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
   /**
-   * Determine whether input is a empty object
+   * Determine whether input is an empty object
    * 
    * @param {*} input 
    */

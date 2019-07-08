@@ -1,7 +1,7 @@
 import isObject from './isObject'
 
 /**
- * Determine whether input is a empty object
+ * Determine whether input is an empty object
  * 
  * @param {*} input 
  */
