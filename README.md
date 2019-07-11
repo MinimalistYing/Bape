@@ -48,6 +48,8 @@ random(0 , 1000) // generate a random integer number between 0 ~ 1000
 ## Function
 * `once(fn)`
 * `noop()`
+* `debounce(fn, wait, options)`
+* `throttle(fn, wait, options)`
 
 ## Array
 * `remove(arr, item)`
