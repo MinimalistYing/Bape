@@ -28,3 +28,10 @@
 .ape-hide {
   display: none !important;
 }
+
+/* the mordern clearfix solution http://cssmojo.com/the-very-latest-clearfix-reloaded/*/
+.ape-clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
