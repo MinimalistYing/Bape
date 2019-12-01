@@ -54,5 +54,13 @@ random(0 , 1000) // generate a random integer number between 0 ~ 1000
 ## Array
 * `remove(arr, item)`
 
+# Style
+* `.ape-text-ellipsis` show ... when text is too long
+* `.ape-center` use flex layout to align child element center
+* `.ape-half-parent-width-square` generate a square that width is half of parent content width
+* `.ape-blur-text`
+* `.ape-hide` display none
+* `.ape-clearfix`
+
 # Dependency
 * [js-cookie](https://github.com/js-cookie/js-cookie)
