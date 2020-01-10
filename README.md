@@ -44,6 +44,7 @@ random(0 , 1000) // generate a random integer number between 0 ~ 1000
 ## Others
 * `isEnter(e)`
 * `formatJSON(value, replacer = null, space = 2)`
+* `safelyGet(obj, 'a.b[1].c.d[0].e')` to get value from nested object without worring about error
 
 ## Function
 * `once(fn)`
