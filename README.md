@@ -55,6 +55,19 @@ random(0 , 1000) // generate a random integer number between 0 ~ 1000
 ## Array
 * `remove(arr, item)`
 
+## EventEmitter
+```js
+import EventEmitter from 'bape/events'
+
+const event = new EventEmitter()
+
+const removeListener = event.on('hello', () => console.log('hello'))
+
+event.emit('hello')
+
+removeListener()
+```
+
 # Style
 * `.ape-text-ellipsis` show ... when text is too long
 * `.ape-center` use flex layout to align child element center

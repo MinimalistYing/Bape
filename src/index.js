@@ -22,6 +22,8 @@ import formatJSON from './formatJSON'
 // array
 import remove from './remove'
 
+import EventEmitter from './events.js'
+
 export default {
   isURL,
   isEnter,
@@ -36,5 +38,6 @@ export default {
   randomCnString,
   once,
   noop,
-  remove
+  remove,
+  EventEmitter
 }
