@@ -6,13 +6,14 @@
  * @param {*} space Same as `JSON.stringify(value, replacer, space)`
  */
 export default function formatJSON (value, replacer = null, space = 2) {
-  let str = ''
-  // If input is string, there is no need to parse
-  if (typeof value !== 'string') return JSON.stringify(value, replacer, space)
+  let re = ''
+  // If input is an object, there is no need to parse
+  if (typeof value === 'object') return JSON.stringify(value, replacer, space)
   try {
-    str = JSON.stringify(JSON.parse(value), replacer, space)
+    const parsed = JSON.parse(value)
+    re = typeof parsed === 'object' ? JSON.stringify(JSON.parse(value), replacer, space) : value
   } catch (err) {
-    str = String(value) || ''
+    re = String(value) || ''
   }
-  return str
+  return re
 }

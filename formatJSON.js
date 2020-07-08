@@ -18,6 +18,8 @@
   });
   _exports["default"] = formatJSON;
 
+  function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
   /**
    * Prettify JSON
    * 
@@ -28,17 +30,18 @@
   function formatJSON(value) {
     var replacer = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : null;
     var space = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 2;
-    var str = ''; // If input is string, there is no need to parse
+    var re = ''; // If input is an object, there is no need to parse
 
-    if (typeof value !== 'string') return JSON.stringify(value, replacer, space);
+    if (_typeof(value) === 'object') return JSON.stringify(value, replacer, space);
 
     try {
-      str = JSON.stringify(JSON.parse(value), replacer, space);
+      var parsed = JSON.parse(value);
+      re = _typeof(parsed) === 'object' ? JSON.stringify(JSON.parse(value), replacer, space) : value;
     } catch (err) {
-      str = String(value) || '';
+      re = String(value) || '';
     }
 
-    return str;
+    return re;
   }
 
   module.exports = exports.default;
