@@ -10,7 +10,7 @@
     factory(mod.exports, global.random);
     global.randomCnString = mod.exports;
   }
-})(this, function (_exports, _random) {
+})(typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : this, function (_exports, _random) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {

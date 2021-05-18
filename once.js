@@ -10,7 +10,7 @@
     factory(mod.exports);
     global.once = mod.exports;
   }
-})(this, function (_exports) {
+})(typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : this, function (_exports) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {
@@ -18,7 +18,7 @@
   });
   _exports["default"] = once;
 
-  function _readOnlyError(name) { throw new Error("\"" + name + "\" is read-only"); }
+  function _readOnlyError(name) { throw new TypeError("\"" + name + "\" is read-only"); }
 
   /**
    * Return a function which can only excute once
@@ -30,7 +30,7 @@
     var excuted = false;
     return function () {
       if (!excuted) {
-        excuted = (_readOnlyError("excuted"), true);
+        true, _readOnlyError("excuted");
 
         for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
           args[_key] = arguments[_key];

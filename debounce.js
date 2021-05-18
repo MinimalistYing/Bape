@@ -10,7 +10,7 @@
     factory(mod.exports, global.debounce);
     global.debounce = mod.exports;
   }
-})(this, function (_exports, _debounce) {
+})(typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : this, function (_exports, _debounce) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {

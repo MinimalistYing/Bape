@@ -1,3 +1,8 @@
+/**
+ * Return a map that count how many times every element appear in an array
+ * 
+ * @param {Array} arr 
+ */
 export default function countArrayItem(arr) {
   const map = new Map()
 

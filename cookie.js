@@ -10,7 +10,7 @@
     factory(mod.exports, global.jsCookie);
     global.cookie = mod.exports;
   }
-})(this, function (_exports, _jsCookie) {
+})(typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : this, function (_exports, _jsCookie) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {

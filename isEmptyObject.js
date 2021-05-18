@@ -10,7 +10,7 @@
     factory(mod.exports, global.isObject);
     global.isEmptyObject = mod.exports;
   }
-})(this, function (_exports, _isObject) {
+})(typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : this, function (_exports, _isObject) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {

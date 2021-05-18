@@ -10,7 +10,7 @@
     factory(mod.exports, global.throttle);
     global.throttle = mod.exports;
   }
-})(this, function (_exports, _throttle) {
+})(typeof globalThis !== "undefined" ? globalThis : typeof self !== "undefined" ? self : this, function (_exports, _throttle) {
   "use strict";
 
   Object.defineProperty(_exports, "__esModule", {

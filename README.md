@@ -54,6 +54,7 @@ random(0 , 1000) // generate a random integer number between 0 ~ 1000
 
 ## Array
 * `remove(arr, item)`
+* `countArrayItem(arr)`
 
 ## EventEmitter
 ```js

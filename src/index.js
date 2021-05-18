@@ -21,6 +21,7 @@ import formatJSON from './formatJSON'
 
 // array
 import remove from './remove'
+import countArrayItem from './countArrayItem'
 
 import EventEmitter from './events.js'
 
@@ -39,5 +40,6 @@ export default {
   once,
   noop,
   remove,
+  countArrayItem,
   EventEmitter
 }
