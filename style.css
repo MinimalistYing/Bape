@@ -5,6 +5,14 @@
   text-overflow: ellipsis;
 }
 
+/* show ... when multiline text is too long */
+.ape-multi-line-ellipsis {
+  display: -webkit-box;
+  -webkit-line-clamp: attr(data-line, 1);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 /* use flex layout to align child element center */
 .ape-center {
   display: flex;
